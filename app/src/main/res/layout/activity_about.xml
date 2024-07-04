@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kalselgo_logo"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Aplikasi KalselGo dibuat oleh kelompok 4\n\nFarhan (C050422027)\nMuhammad Hekal Maulana (C050422034)\nMuhammad Zaki (C050422027)\nMuhammad Zen (C050422036)\n\nKalselGo adalah sebuah aplikasi inovatif yang dirancang khusus untuk memenuhi kebutuhan informasi destinasi wisata di Kalimantan Selatan secara efektif dan efisien. KalselGo hadir sebagai solusi terdepan untuk memudahkan akses terhadap berbagai informasi penting yang dibutuhkan oleh wisatawan di Kalimantan Selatan. "
+        android:textSize="15sp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btKeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#00509D"
+        android:text="Back" />
+</LinearLayout>
