@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="CustomRatingBar" parent="Theme.AppCompat.Light">
+    <item name="colorControlNormal">@drawable/star_empty</item>
+    <item name="colorControlActivated">@drawable/star_full</item>
+    <item name="colorControlHighlight">@drawable/star_full</item>
+</style>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView untuk gambar latar belakang -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Info1Menara"
+        android:scaleType="centerCrop" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/bluee"/>
+
+    <!-- LinearLayout atau layout lain untuk konten di atas gambar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/whitecorner"
+        android:layout_marginTop="300dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="Siring Menara Pandang"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="38dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pinloc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kota Banjarmasin, Kalimantan Selatan"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="38dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/star_full"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/star_full"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/star_full"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/star_full"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/star_empty"
+                />
+
+            <Button
+                android:id="@+id/buttonShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="90dp"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bluee"
+                android:text="Share" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang"
+            android:textStyle="bold"
+            android:layout_marginLeft="38dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="38dp"
+            android:text="\t\tMenara Pandang Banjarmasin adalah salah satu tempat wisata di Kota Banjarmasin, di menara ini kita dapat melihat keindahan Kota Banjarmasin dari ketinggian.
+
+            \n\n\t\tMenara Pandang Banjarmasin saat ini menjadi salah satu tempat wisata Banjarmasin sebagian besar pengunjung baik warga Banjarmasin itu sendiri maupun para wisatawan dari luar daerah. Menara ini menjadi sebuah ikon wisata baru setahun terakhir ini di Kota Banjarmasin, selain pasar terapung, Masjid Raya Sabilal Muhtadin, Masjid Sultan Suriansyah dan Masjid Jami’ Banjarmasin.
+
+            \n\n\t\tMenara Pandang Banjarmasin ini terletak di Siring Jalan Kapten Pierre Tendean Banjarmasin. Posisinya dekat pasar terapung buatan Pemerintah Kota Banjarmasin di tepi Sungai Martapura. Menara Pandang ini buka setiap hari senin sampai jum’at pada pukul 10.00-21.00 WITA. Hari Sabtu buka pukul 10.00-22.00 WITA.
+
+            "
+            android:justificationMode="inter_word"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</FrameLayout>
